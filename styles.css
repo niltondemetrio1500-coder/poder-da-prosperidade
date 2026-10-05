@@ -183,11 +183,17 @@ h2 {
 }
 
 .footer {
-  padding: 0 18px 24px;
-  color: #999;
+  padding: 30px 18px 24px;
+  color: #777;
   font-size: 0.68rem;
+  line-height: 1.55;
   text-align: center;
 }
+
+.footer nav { display: flex; justify-content: center; gap: 10px; margin-bottom: 10px; }
+.footer a { color: #b51d24; font-weight: 700; text-decoration: none; }
+.footer a:hover, .footer a:focus-visible { text-decoration: underline; }
+.footer p { margin: 3px 0; }
 
 @media (max-width: 620px) {
   .page-shell { padding: 16px 16px 40px; }

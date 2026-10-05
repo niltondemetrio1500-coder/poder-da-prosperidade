@@ -22,3 +22,4 @@ Criar uma página única em português reproduzindo a referência fornecida: pá
 - Vídeo servido pelo armazenamento do projeto em `/manus-storage/vsl_27c88ec0.mp4`, como placeholder substituível.
 - Player HTML5 vertical, responsivo, com controles nativos, poster, progresso sincronizado, botão de download e tratamento de erro.
 - Nenhum checkout, rastreamento ou formulário será incluído sem instrução específica.
+- O bloco de frase e botão abaixo da VSL foi removido; o rodapé apresenta links clicáveis para `politica-de-privacidade.html` e `termos-de-uso.html`, identificando a organização com os dados fornecidos pelo usuário.
