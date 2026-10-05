@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Assista ao vídeo especial antes que ele saia do ar." />
+    <title>Assista antes que saia do ar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">ATENÇÃO — ASSISTA AGORA</p>
+        <h1 id="page-title">
+          ESPERA! ESTE VÍDEO ESTÁ<br />
+          <span class="gold">PRESTES A SAIR DO AR!</span>
+        </h1>
+        <p class="subheadline">Assista até o final para entender o que pode mudar a sua maneira de enxergar esta oportunidade.</p>
+      </section>
+
+      <section class="video-section" aria-label="Vídeo principal">
+        <div class="video-frame" id="videoFrame">
+          <div class="progress-track" aria-hidden="true">
+            <span class="progress-fill" id="progressFill"></span>
+          </div>
+          <video
+            id="vslVideo"
+            controls
+            playsinline
+            preload="metadata"
+            poster="/manus-storage/vsl-poster_03b961a8.jpg"
+          >
+            <source src="/manus-storage/vsl_27c88ec0.mp4" type="video/mp4" />
+            Seu navegador não suporta a reprodução de vídeo.
+          </video>
+          <div class="video-status" id="videoStatus" role="status" aria-live="polite">Toque para assistir</div>
+        </div>
+        <p class="video-note">Dê play e assista com o som ligado.</p>
+      </section>
+
+      <section class="offer" aria-labelledby="offer-title">
+        <div class="accent-line" aria-hidden="true"></div>
+        <h2 id="offer-title"><span class="green">ATIVE O PODER DE RECEBER</span><br />NA SUA VIDA E TENHA O<br /><span class="red">MELHOR ANO</span> DA SUA VIDA!</h2>
+        <p class="offer-copy">O conteúdo completo está disponível no vídeo acima. Assista primeiro e, se desejar guardar uma cópia para uso pessoal, baixe o arquivo abaixo.</p>
+        <a class="primary-cta" href="/manus-storage/vsl_27c88ec0.mp4" download="vsl.mp4">
+          <span class="cta-icon" aria-hidden="true">↓</span>
+          BAIXAR O VÍDEO
+        </a>
+        <p class="microcopy">Download direto do arquivo MP4 · vídeo vertical</p>
+      </section>
+    </main>
+
+    <footer class="footer">Conteúdo em vídeo · Página otimizada para celular</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
