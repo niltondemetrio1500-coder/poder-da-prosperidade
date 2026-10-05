@@ -1,10 +1,10 @@
 # Entregas
 
-- Criar uma página única em português reproduzindo a referência fornecida, com fundo preto e composição vertical mobile-first.
-- Exibir uma headline centralizada em branco com trechos destacados em dourado e vermelho.
+- Criar uma página única em português reproduzindo a referência fornecida, com fundo branco e composição centralizada.
+- Exibir a headline “O Segredo de 3.000 Anos Que o Arcanjo Miguel Quer Que Todo Cristão Saiba Sobre Receber as Bênçãos de Deus”, com “Arcanjo Miguel” e “Receber as Bênçãos de Deus” em vermelho.
 - Exibir subtítulo centralizado em itálico seguindo a hierarquia visual da referência.
 - Incorporar o arquivo VSL fornecido pelo usuário em um player vertical centralizado.
-- Exibir chamada para ação abaixo do player, com destaque visual coerente com a referência.
+- Manter o player vertical preto centralizado logo abaixo do subtítulo, como no print.
 - Exibir barra de progresso visual integrada à experiência da VSL e sincronizada com o tempo do vídeo.
 - Disponibilizar botão para baixar o arquivo de vídeo VSL hospedado no projeto.
 - Garantir layout responsivo para celular e desktop, preservando a composição vertical.

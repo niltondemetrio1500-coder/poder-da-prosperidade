@@ -1,21 +1,21 @@
 # Plano — Landing page VSL
 
 ## Escopo
-Criar uma página única em português reproduzindo a referência fornecida: composição vertical de VSL em fundo preto, headline centralizada com destaque dourado e vermelho, player vertical centralizado, chamada para ação, barra de progresso visual e botão de download do vídeo. O vídeo atual será tratado como placeholder substituível pelo arquivo VSL que o usuário enviará depois.
+Criar uma página única em português reproduzindo a referência fornecida: página branca, headline preta centralizada com “Arcanjo Miguel” e “Receber as Bênçãos de Deus” em vermelho, subtítulo preto em itálico e bloco de VSL vertical centralizado logo abaixo. O vídeo atual será tratado como placeholder substituível pelo arquivo VSL que o usuário enviará depois.
 
 ## Direção visual
 - **Movimento:** direct-response VSL / editorial dramático de página de vendas mobile-first.
 - **Princípios:** foco absoluto no player; contraste alto; urgência visual sem excesso de elementos; leitura em blocos curtos.
-- **Paleta:** preto quase absoluto para concentrar atenção no vídeo; branco para legibilidade; dourado para promessa/ênfase; vermelho para urgência; verde para a ação principal.
-- **Layout:** coluna única estreita e vertical, com o player como eixo central e faixas tipográficas acima/abaixo; sem navegação ou distrações.
-- **Elementos assinatura:** headline em duas cores, barra de progresso vermelha no topo do player e CTA verde com brilho discreto.
+- **Paleta:** branco dominante como no print; preto para a headline e subtítulo; vermelho vivo para os dois destaques da headline; preto no bloco da VSL.
+- **Layout:** coluna única centrada em uma página ampla, com headline e subtítulo fora do player e o vídeo vertical como eixo central logo abaixo.
+- **Elementos assinatura:** headline em preto/vermelho, subtítulo em itálico e bloco de vídeo vertical com barra de progresso vermelha.
 - **Interação:** o player é o primeiro ponto de ação; a barra acompanha o tempo real; o download é explícito e só usa o arquivo hospedado no projeto.
-- **Animação:** entrada suave do conteúdo, pulso discreto na urgência e brilho curto no CTA; respeitar `prefers-reduced-motion`.
-- **Tipografia:** Arial/Helvetica para impacto e compatibilidade; caixa alta na headline e CTA, com pesos fortes e tracking controlado.
-- **Essência da marca:** uma experiência de VSL direta, intensa e mobile-first para conduzir atenção do alerta ao vídeo e ao próximo passo. Personalidade: urgente, dramática, objetiva.
-- **Tom:** frases curtas, imperativas e visuais. Exemplos: “NÃO SAIA DESTA PÁGINA” e “ATIVE O PODER DE RECEBER”.
+- **Animação:** nenhuma animação decorativa no primeiro viewport; o foco deve permanecer igual ao print e respeitar `prefers-reduced-motion`.
+- **Tipografia:** Arial/Helvetica para impacto e compatibilidade; headline em peso forte, com os destaques vermelhos preservando a mesma hierarquia do print.
+- **Essência da marca:** uma página de VSL direta, limpa e centralizada para conduzir o visitante da headline ao vídeo. Personalidade: objetiva, dramática, editorial.
+- **Tom:** informativo e visual, preservando literalmente a headline e o subtítulo do print.
 - **Wordmark/marca:** nenhum logotipo adicional; a própria headline funciona como assinatura visual.
-- **Cor proprietária:** dourado quente `#c8a42b`, usado somente nos trechos de maior ênfase.
+- **Cor proprietária:** vermelho `#e3242b`, usado exclusivamente nas duas expressões destacadas da headline.
 
 ## Implementação
 - Página estática com `index.html`, `styles.css`, `script.js` e `public/manus-routes.json`.
