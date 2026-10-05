@@ -12,3 +12,4 @@
 - Manter o vídeo como asset substituível para receber a nova VSL que o usuário enviará.
 - Remover completamente a frase e o botão abaixo da VSL.
 - Disponibilizar links clicáveis para Política de Privacidade e Termos de Uso, com os dados fornecidos da organização: RAISA BELO SOCIEDADE INDIVIDUAL DE ADVOCACIA, CNPJ 49.160.359/0001-15 e endereço em Recife - PE.
+- Incorporar o player Vturb fornecido pelo usuário com o ID `vid-6ac3e73ff904c2386cbf658b` e o script oficial correspondente.

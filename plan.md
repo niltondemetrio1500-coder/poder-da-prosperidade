@@ -19,7 +19,7 @@ Criar uma página única em português reproduzindo a referência fornecida: pá
 
 ## Implementação
 - Página estática com `index.html`, `styles.css`, `script.js` e `public/manus-routes.json`.
-- Vídeo servido pelo armazenamento do projeto em `/manus-storage/vsl_27c88ec0.mp4`, como placeholder substituível.
+- Player Vturb incorporado pelo ID `vid-6ac3e73ff904c2386cbf658b`, carregado pelo script oficial Converteai fornecido pelo usuário.
 - Player HTML5 vertical, responsivo, com controles nativos, poster, progresso sincronizado, botão de download e tratamento de erro.
 - Nenhum checkout, rastreamento ou formulário será incluído sem instrução específica.
 - O bloco de frase e botão abaixo da VSL foi removido; o rodapé apresenta links clicáveis para `politica-de-privacidade.html` e `termos-de-uso.html`, identificando a organização com os dados fornecidos pelo usuário.

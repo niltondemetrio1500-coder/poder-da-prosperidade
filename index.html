@@ -22,22 +22,10 @@
 
       <section class="video-section" aria-label="Vídeo principal">
         <div class="video-frame" id="videoFrame">
-          <div class="progress-track" aria-hidden="true">
-            <span class="progress-fill" id="progressFill"></span>
-          </div>
-          <video
-            id="vslVideo"
-            controls
-            playsinline
-            preload="metadata"
-            poster="/manus-storage/vsl-poster_03b961a8.jpg"
-          >
-            <source src="/manus-storage/vsl_27c88ec0.mp4" type="video/mp4" />
-            Seu navegador não suporta a reprodução de vídeo.
-          </video>
-          <div class="video-status" id="videoStatus" role="status" aria-live="polite">Toque para assistir</div>
+          <vturb-smartplayer id="vid-6ac3e73ff904c2386cbf658b" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;">
+            <div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 178.21782178217822% 0 0; z-index: 0; background-color: black;"></div>
+          </vturb-smartplayer>
         </div>
-        <p class="video-note">Toque no vídeo para assistir.</p>
       </section>
 
     </main>
@@ -51,6 +39,12 @@
       <p>RAISA BELO SOCIEDADE INDIVIDUAL DE ADVOCACIA · CNPJ 49.160.359/0001-15</p>
       <p>R MAJ RUBENS VAZ, 170, CS A, VARZEA, RECIFE - PE, 50741-470, Brasil</p>
     </footer>
+    <script type="text/javascript">
+      var s = document.createElement("script");
+      s.src = "https://scripts.converteai.net/dc8ab8c0-f9ac-47c3-af12-a4174ba40c45/players/6ac3e73ff904c2386cbf658b/v4/player.js";
+      s.async = true;
+      document.head.appendChild(s);
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
